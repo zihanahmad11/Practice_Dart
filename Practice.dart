@@ -61,4 +61,17 @@ switch (destinationZone) {
   default:
   print ("Please select a valid delivery point");
 }
+////////////////////////////////////////////////////////////
+
+if ( destinationZone == 'xyz'){
+  print('Shipping cost: \$${weightInKgs*5}');
+
+  } else if ( destinationZone =="abc"){
+  print("Delivery cost: ${weightInKgs*7}");
+  
+  } else if ( destinationZone=='pqr'){
+    print("Delivery Charge: ${weightInKgs*10}");
+  } else {print('Please select a valid delivery point');
+  }
+
 }
