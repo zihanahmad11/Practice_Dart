@@ -36,8 +36,9 @@ If the destination zone is 'PQR'
 , the shipping cost is $10 per kilogram.
 If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message indicating an invalid destination zone.
 */
- String destinationZone = 'pq';
+ String destinationZone = 'pqra';
  double weightInKgs = 14.9457;
+ double cost = 0;
 
  if ( destinationZone == 'xyz'){
   print('Shipping cost: \$${weightInKgs*5}');
@@ -64,14 +65,18 @@ switch (destinationZone) {
 ////////////////////////////////////////////////////////////
 
 if ( destinationZone == 'xyz'){
-  print('Shipping cost: \$${weightInKgs*5}');
+  cost = weightInKgs*5;
 
   } else if ( destinationZone =="abc"){
-  print("Delivery cost: ${weightInKgs*7}");
+  cost = weightInKgs*7;
   
   } else if ( destinationZone=='pqr'){
-    print("Delivery Charge: ${weightInKgs*10}");
-  } else {print('Please select a valid delivery point');
+    cost = weightInKgs*10;
+
+  } else {
+    print('Please select a valid delivery point');
+    return;
   }
+ print("Shipping cost: $cost");
 
 }
