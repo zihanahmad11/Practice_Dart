@@ -92,6 +92,14 @@ for ( int i=1; i<=10; i++ ){
 for ( int i=1; i<=10; i+=2 ){
   print( 'Testing i+=2/ i = i+1');
 }
+String someValue1 = "Hello, World";
+print (someValue1.substring(0, 5));
 
+/////////////////////////////////////////////
+///while loop
+ int i =0;
 
+ while( i<someValue1.length){
+  print(someValue1[i]); i++;
+ }
 }
