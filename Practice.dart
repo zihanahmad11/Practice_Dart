@@ -88,7 +88,10 @@ if ( destinationZone == 'xyz'){
 for ( int i=1; i<=10; i++ ){
   print( 'Hello, World');
 }
-
+//
+for ( int i=1; i<=10; i+=2 ){
+  print( 'Testing i+=2/ i = i+1');
+}
 
 
 }
