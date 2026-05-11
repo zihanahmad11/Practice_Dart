@@ -103,5 +103,6 @@ If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message 
     print(someValue1[i1]);
     i++;
   }
-  String ok;
+  String ok = "NOW IM GOING TO USE DO WHILE LOOP";
+  int i2 = 0;
 }
