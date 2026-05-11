@@ -102,5 +102,10 @@ print (someValue1.substring(0, 5));
  while( i<someValue1.length){
   print(someValue1[i]); i++;
  }
+ int i1 =0;
+
+ while( i<someValue1.length){
+  print(someValue1[i1]); i++;
+ }
  ok
 }
