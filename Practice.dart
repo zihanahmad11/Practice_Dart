@@ -16,14 +16,14 @@ void main() {
   print(value1);
 
   // Using switch statement
-  switch (someValue) {
-    case "Hello, World!!":
-      print("4WoW");
+    switch (someValue) {
+      case "Hello, World!!":
+        print("4WoW");
     default:
-      print("4Not WoW");
-  }
-  ////////////////////////////////////////////////////////////////////////////////////////
-  /*
+        print("4Not WoW");
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////
+    /*
 Exercise:
 Develop a program to calculate the shipping cost based on
 the destination zone and the weight of the package (you will be provided)
@@ -35,9 +35,9 @@ If the destination zone is 'PQR'
 , the shipping cost is $10 per kilogram.
 If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message indicating an invalid destination zone.
 */
-  String destinationZone = 'pqr';
-  double weightInKgs = 14.9457;
-  double cost = 0;
+   String destinationZone = 'pqr';
+   double weightInKgs = 14.9457;
+   double cost = 0;
 
   if (destinationZone == 'xyz') {
     print('Shipping cost: \$${weightInKgs * 5}');
@@ -47,15 +47,33 @@ If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message 
     print("Delivery Charge: ${weightInKgs * 10}");
   } else {
     print('Please select a valid delivery point');
+  if (destinationZone == 'xyz') {
+    print('Shipping cost: \$${weightInKgs * 5}');
+  } else if (destinationZone == "abc") {
+    print("Delivery cost: ${weightInKgs * 7}");
+  } else if (destinationZone == 'pqr') {
+    print("Delivery Charge: ${weightInKgs * 10}");
+  } else {
+    print('Please select a valid delivery point');
   }
-  ////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
 
   switch (destinationZone) {
     case "pqr":
       print('Shipping cost: ${weightInKgs * 10}');
     case "xyz":
       print("Shipping charge: ${weightInKgs * 5}");
+  switch (destinationZone) {
+    case "pqr":
+      print('Shipping cost: ${weightInKgs * 10}');
+    case "xyz":
+      print("Shipping charge: ${weightInKgs * 5}");
     case "abc":
+      print("Delivery charge: ${weightInKgs * 5}");
+    default:
+      print("Please select a valid delivery point");
+  }
+  ////////////////////////////////////////////////////////////
       print("Delivery charge: ${weightInKgs * 5}");
     default:
       print("Please select a valid delivery point");
@@ -68,12 +86,20 @@ If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message 
     cost = weightInKgs * 7;
   } else if (destinationZone == 'pqr') {
     cost = weightInKgs * 10;
+  if (destinationZone == 'xyz') {
+    cost = weightInKgs * 5;
+  } else if (destinationZone == "abc") {
+    cost = weightInKgs * 7;
+  } else if (destinationZone == 'pqr') {
+    cost = weightInKgs * 10;
   } else {
     print('Please select a valid delivery point');
     return;
   }
-  print("Shipping cost: $cost");
+ print("Shipping cost: $cost");
 
+  // for (int i=0; i<=10; i++){
+  //   print(i);
   /* Loops */
 
   //  For loop
@@ -106,3 +132,7 @@ If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message 
   String ok = "NOW IM GOING TO USE DO WHILE LOOP";
   int i2 = 0;
 }
+
+
+// my name is Favour and I am 20 years old
+  }}
