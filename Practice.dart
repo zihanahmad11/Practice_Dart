@@ -129,13 +129,6 @@ If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message 
         print(someValue1[i1]);
         i++;
       }
-      String ok = "NOW IM GOING TO USE DO WHILE LOOP";
-      int i2 = 0;
-    }
-
-    // my name is Favour and I am 20 years old
-
     // this is a test for my first pull request
-  }
 }
-//Okay
+  }}
