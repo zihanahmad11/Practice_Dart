@@ -47,6 +47,7 @@ If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message 
     print("Delivery Charge: ${weightInKgs * 10}");
   } else {
     print('Please select a valid delivery point');
+  }
     if (destinationZone == 'xyz') {
       print('Shipping cost: \$${weightInKgs * 5}');
     } else if (destinationZone == "abc") {
@@ -85,7 +86,8 @@ If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message 
     } else if (destinationZone == "abc") {
       cost = weightInKgs * 7;
     } else if (destinationZone == 'pqr') {
-      cost = weightInKgs * 10;
+      cost = weightInKgs * 10; 
+    }
       if (destinationZone == 'xyz') {
         cost = weightInKgs * 5;
       } else if (destinationZone == "abc") {
@@ -131,4 +133,3 @@ If the destination zone is not 'XYZ', 'ABC', or 'PQR', display an error message 
       }
     // this is a test for my first pull request
 }
-  }}
