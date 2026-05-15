@@ -1,9 +1,9 @@
 void main(){
   
-  String someValue = "Hello";
-int i = 0;
-while (i<someValue.length) {
-  print(someValue[i]);
+  String value = "Hello";
+  int i = 0;
+do {
+  print( value[i]);
   i++;
-}
+} while(i<value.length);
 }
