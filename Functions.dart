@@ -1,3 +1,9 @@
 void main() {
   
 }
+
+/*
+<datatype> fnName() {
+
+}
+*/
