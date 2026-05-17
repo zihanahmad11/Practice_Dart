@@ -1,9 +1,11 @@
 void main(){
   
   String value = "Hello";
-  int i = 0;
-do {
-  print( value[i]);
-  i++;
-} while(i<value.length);
+for (int i = 0; i<value.length; i++){
+  if (i == 1 || i == 2 || i == 3) {
+  continue;
+  }
+print(value[i]);
+
+}
 }
