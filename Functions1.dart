@@ -3,7 +3,7 @@ void main() {
   print(name);
 }
 
-String myName() {
+void myName() {
   print('ok');
   return "Zihan";
 }
