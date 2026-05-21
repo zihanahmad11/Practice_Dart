@@ -1,9 +1,10 @@
 void main() {
-  String name = myName();
-  print(name);
+  String name = "Yusuf A.";
+myName(name);
+print(name);
 }
 
-void myName() {
-  print('ok');
-  return "Zihan";
+void myName(String thisIsMyName) {
+  thisIsMyName = "Not yusuf";
+ print(thisIsMyName);
 }
