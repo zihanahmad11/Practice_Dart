@@ -7,7 +7,6 @@ print(stuff.name);
 }
 ({int age, String name}) printstuff(){
   wellDone();
- ok ();
 return(age: 23, name: "Zihan");
 
 }
@@ -17,7 +16,4 @@ return(age: 23, name: "Zihan");
 void wellDone(){
   print("Well Done");}
 
- ok (){
-    print('Good boy');
-  }
 

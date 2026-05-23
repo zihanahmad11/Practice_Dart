@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "Printstuff.dart"
+            "program": "class.dart"
         }
     ]
 }
