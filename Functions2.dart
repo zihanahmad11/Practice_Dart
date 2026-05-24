@@ -1,12 +1,15 @@
 void main() {
   String name = "Yusuf A.";
-myName(12, true, takeName: name,age: 23, greeting:"Hello");
+  myName(name, 24, "Hi");
 }
 
-void myName(int oldAge, bool isAdult,{required String takeName, required int age, String? greeting}) {
- print(takeName);
- print(greeting);
- print("age is: $age");
- print(oldAge);
- print(isAdult);
+void myName(String takeName, int age, String greeting) {
+  print("Name is: $takeName");
+  print("Greeting: $greeting");
+  print("Age is: $age");
+  if (age >= 18) {
+    print("In an Adult");
+  } else {
+    print("In a Child");
+  }
 }
