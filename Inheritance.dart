@@ -1,0 +1,25 @@
+void main() {
+final car = Car();
+print(car.noOfWheel);
+
+}
+
+class Vehicle {
+  bool isEngineWorking = false;
+  bool isLightOn = true;
+
+}
+
+class Car extends Vehicle{
+int noOfWheel= 4;
+void printSomething() {
+print(noOfWheel);
+}
+}
+
+class Truck extends Vehicle{
+int numberOfWheel= 6;
+void printSomething() {
+print(numberOfWheel);
+}
+}

@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "Static.dart"
+            "program": "Inheritance.dart"
         }
     ]
 }
