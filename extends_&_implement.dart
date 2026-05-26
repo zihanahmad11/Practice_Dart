@@ -1,7 +1,6 @@
 void main() {
   //Inheritence
   //is-a
-  //OOP
 final car = Car();
 print(car.noOfWheel);
 car.accelerate();
