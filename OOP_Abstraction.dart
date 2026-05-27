@@ -1,3 +1,5 @@
+// Practicing date: 28.05.2026
+
 void main(){
   
   final dateTime = DateTime.now();
@@ -10,15 +12,17 @@ void main(){
   cat = Dog();
   cat.sound();
   // 2. Abstraction
+  Animal cat1 = Cat();
+  cat1.sound();
+   Animal dog = Cat();
+  dog.sound();
+
   // 3. Inheritance
   // 4. Encapsulation
-
 } 
 
-class Animal {
-  void sound(){
-    print("Animal making sound");
-  }
+abstract class Animal {
+  void sound();
 }
 
 class Cat extends Animal{

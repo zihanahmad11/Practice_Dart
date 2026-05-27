@@ -4,6 +4,8 @@ void main() {
 final car = Car();
 // print(car.noOfWheel);
 car.accelerate();
+print(car.isEngineWorking);
+
 }
 
 
@@ -11,13 +13,15 @@ abstract class Vehicle {
   void accelerate(){
     
   }
+  bool isEngineWorking = true;
  }
 
-class Car implements Vehicle {
-  @override
- void accelerate(){
-  print("accelerating");
- }
+class Car extends Vehicle {
+//   @override
+//  void accelerate(){
+//   print("accelerating");
+//  }
+ bool isEngineWorking = false;
 
 }
 
