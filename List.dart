@@ -1,4 +1,14 @@
 void main(){
-  List<int> list = [23,454,54];
-  print(list[2]);
+  List<Student> studentList = [
+ Student("Nuhel"),
+ Student("Noman"),
+ Student("Tanvir"),
+  ];
+  print(studentList[2].name);
+final student = Student('Zihan');
+print(student.name);
+}
+class Student {
+  final String name;
+  Student(this.name);
 }
