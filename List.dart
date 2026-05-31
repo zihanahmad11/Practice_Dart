@@ -42,3 +42,4 @@ class Student {
   String toString() {
     return name;}
 }
+// toString() method is used to convert the object to a string representation. In this case, it returns the name of the student when the object is printed.
