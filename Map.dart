@@ -21,7 +21,6 @@ final anotherMap= {
 marks.addAll(anotherMap);
 marks.remove("Oman");
 
-
 if (marks["Noman"]== null){
 print("Key doesn't exit");
 }
@@ -31,6 +30,9 @@ print(marks.length);
 
 for(int i = 0; i<marks.length; i++){
   print("${marks.keys.toList()[i]} : ${marks.values.toList()[i]}");
+
+  // print(marks.keys.toList()[i]); 
+
 }
 
 print("----------------------------------------------------------------");
@@ -38,3 +40,4 @@ marks.forEach((key, value) {
 print('$key:$value');
 });
 }
+
