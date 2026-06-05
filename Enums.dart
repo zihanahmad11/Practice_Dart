@@ -1,9 +1,9 @@
 void main(){
-  //Enums
+  //Enums..
 final employee1 = Employee("Zihan", "SWE");
 final employee2 = Employee("Nuhel", "Finance");
 
-final employee3 = Employee("Zihan", "SWE");
+final employee3 = Employee("Tanvir", "rsdaifgyyugf");
 
 
 }
