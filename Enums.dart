@@ -6,6 +6,7 @@ final employee3 = Employee("Tanvir", EmployeeType.marketing);
 
 employee1.fn();
 employee2.fn();
+employee3.fn();
 
 
 
@@ -28,17 +29,7 @@ class Employee {
 ////////////////////////////////
 
 void fn() {
-  switch(type) {
+  print('${this.name}, ${type.name}, & Salary is ${type.salary}');
 
-  case EmployeeType.swe:
-   print(type.salary);
-
-  case EmployeeType.finance:
-   print("Finance Employee");
-
-   case EmployeeType.marketing:
-   print('Marketing Employee');
-
-  }
  }
 }
