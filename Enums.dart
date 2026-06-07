@@ -25,7 +25,6 @@ class Employee {
 
  const Employee(this.name, this.type);
 
-
 ////////////////////////////////
 
 void fn() {
@@ -38,6 +37,7 @@ void fn() {
    print("Finance Employee");
 
    case EmployeeType.marketing:
+   print('Marketing Employee');
 
   }
  }
