@@ -19,8 +19,8 @@ void main(){
     marksZihan,
  ];
 
-marks.map((Okay) {
-  Okay.forEach((key, value) {
+marks.map((okay) {
+  okay.forEach((key, value) {
     print("$key : $value");
   });
 }).toList();
