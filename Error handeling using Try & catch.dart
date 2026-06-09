@@ -17,12 +17,3 @@ void main() async {
    
   
 }
-
-// Future<String> delayed2Sec() {
-  
-//   return Future.delayed(Duration(seconds: 2), ()async {
-
-//     return 'Heyyy!!!!!!';
-
-//  });
-// }
