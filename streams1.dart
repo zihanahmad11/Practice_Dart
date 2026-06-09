@@ -9,9 +9,9 @@ print("Hey it's completed fine");
 print('Hi there');
  }
 
- Stream <int> counDown() async*{
-for(int i = 5; i>0; i--){
-yield i;
-await Future.delayed(Duration(seconds: 1));
+ Stream <int> counDown() {
+return Stream.periodic(Duration(seconds: 1), (val) {
+  return val;
+});
 }
- }
+ 

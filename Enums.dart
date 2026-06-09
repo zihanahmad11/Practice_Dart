@@ -29,7 +29,7 @@ class Employee {
 ////////////////////////////////
 
 void fn() {
-  print('${name}, ${type.name}, & Salary is ${type.salary}');
+  print('$name, ${type.name}, & Salary is ${type.salary}');
 
  }
 }
