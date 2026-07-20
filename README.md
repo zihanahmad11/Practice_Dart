@@ -1,4 +1,4 @@
 A sample command-line application with an entrypoint in `bin/`, library code
 in `lib/`, and example unit test in `test/`.
 no.strgtgtouin
-okdf rjjekfnvjwna\mjerg
+okdf rjjekfnvjwna\mj
